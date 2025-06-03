@@ -18,7 +18,8 @@ nav{
     align-items: center;
     margin: 0 auto;
     padding: 0 10px;
-    background: #75d0ea;
+    background: linear-gradient(45deg, #2e86c1, #85c1e9);
+    color: aliceblue;
 }
 
 .logo   {
@@ -30,92 +31,18 @@ nav{
   display: flex;
   list-style: none;
   gap: 20px;
-  font-size: 20px;
+  font-size: 25px;
+  
 }
 
 .nav-link a {
     color: rgb(4, 4, 4);
     text-decoration: none;
+    color: aliceblue;
 }
 
 .nav-link a:hover{
-    color: rgb(222, 217, 217);
-}
-
-
-/*Content Section 2: Features*/
-
-.features-container{
-    padding: 80px 0;
-    background: #75d0ea;
-    margin: 0 auto;
-}
-
-.features-title{
-    font-size: 35px;
-    margin-bottom: 48px;
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
-    font-weight: bold;
-}
-.features-card-container{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.features-card{
-    background-color: rgba(60, 23, 224, 0.1);
-    max-width: 400px;
-    overflow: hidden;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0, 0, 0.1);
-    transition: border-radius 0.3s, transform 0.5s, color 0.3s, animation;
-}
-
-.features-card:hover{
-    transform: translateY(-5px);
-    border-radius: 64px 48px 16px 96px;
-    background: linear-gradient(45deg, #644be0, #9855ae);
-    color: aliceblue;
-    cursor: pointer;
-    animation: rotate 2s linear;
-}
-
-@keyframes rotate {
-    0% {
-        transform: rotateY(0deg);
-    }
-    100%{
-        transform: rotateY(360deg);
-    }
-}
-
-/*Footer Section*/
-
-.features-card-title{
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-}
-.features-card-title ~ p{
-    font-size: 20px;
-}
-
-.footer-container{
-    align-items: center;
-    text-align: center;
-    background:#b9daeb;
-}
-.footer-end{
-    background: black;
-    color: white;
-}
-.footer-img{
-    width: 30px;
-    height: 30px;
+    color: #212529;
 }
 
 /*Banner seccion */
@@ -129,6 +56,7 @@ body {
 
     margin: 0;
 
+
     font-family: "Segoe UI",Arial,sans-serif;
 
     font-size: 1rem;
@@ -141,8 +69,9 @@ body {
 
     text-align: left;
 
-    background-color: #fff;
+    background: #75d0ea;;
 
+    
     }
 
 h2 {
@@ -276,4 +205,82 @@ h2 {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
-  }
+   }
+
+/*Content Section 2: Features*/
+
+.features-container{
+    padding: 80px 0;
+    background: #75d0ea;
+    margin: 0 auto;
+}
+
+.features-title{
+    font-size: 35px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: bold;
+}
+.features-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+.features-card{
+    background-color: rgba(60, 23, 224, 0.1);
+    max-width: 400px;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0, 0, 0.1);
+    transition: border-radius 0.3s, transform 0.5s, color 0.3s, animation;
+}
+
+.features-card:hover{
+    transform: translateY(-5px);
+    border-radius: 64px 48px 16px 96px;
+    background: linear-gradient(45deg, #644be0, #9855ae);
+    /* color: aliceblue; */
+    color: #212529;
+    cursor: pointer;
+    animation: rotate 2s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+/*Footer Section*/
+
+.features-card-title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.features-card-title ~ p{
+    font-size: 20px;
+}
+
+.footer-container{
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(45deg, #2e86c1, #85c1e9);
+}
+.footer-end{
+    background: black;
+    color: white;
+}
+.footer-img{
+    width: 30px;
+    height: 30px;
+}
+
