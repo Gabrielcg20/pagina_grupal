@@ -1,0 +1,17 @@
+
+body {
+   font-family: "Inter", sans-serif;
+}
+.footer-container{
+    align-items: center;
+    text-align: center;
+    background:#b9daeb;
+}
+.footer-end{
+    background: black;
+    color: white;
+}
+.footer-img{
+    width: 30px;
+    height: 30px;
+}
