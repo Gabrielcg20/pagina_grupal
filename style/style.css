@@ -10,8 +10,8 @@ body {
    
 }
 
-/* Navigation Menu */
 
+/* Navigation Menu */
 nav{
     display: flex;
     justify-content: space-between;
